@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,700&display=swap" rel="stylesheet">
+    <title>SECATIC</title>
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <img src="img/secaticlogo.png">
+                <a href="#">SECATIC</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mí</a></li>
+                    <li><a href="#nosotros" onclick="seleccionar()">Sobre nosotros</a></li>
+                    <li><a href="#sistemaerp" onclick="seleccionar()">Sistema ERP</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contáctanos</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <a href="#sobremi">
+                <img src="img/ceo.png" alt="foto CEO">
+            </a>
+            <h1>Ronald Paico</h1>
+            <h2>Ingeniero de Sistemas - CEO</h2>
+        </div>
+        <div class="contenido-banner">
+            <a href="#nosotros">
+                <img src="img/secatic.jpeg" alt="logo secatic">
+            </a>
+            <h1>SECATIC</h1>
+            <h2>Servicio de Capacitación Particular en Tecnologías de la Información y Comunicación</h2>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mí</h2>
+            <p><span>Mi nombre es Ronald Paico.</span>
+                Soy un profesional informático con 10 años de experiencia en el área de Sistemas e Informática, cumpliendo
+                las tareas de Análisis, desarrollo e implementación de diversos aplicativos según requerimientos del cliente.
+            </p>
+            <p>
+                Poseo sólidos valores y diversas habilidades tecnológicas en el desarrollo de productos tecnológicos
+                que envuelvan el software, hardware a medida, marketing digital, Project Management e implementación de soluciones
+                inteconectadas que generan un ALTO valor agregado a los proyectos donde participo.
+            </p>
+            <div class="fila">
+                <div class="columna-1">
+                    <div>
+                        <h3>Cualidades</h3>
+                    </div>
+                    <div>
+                        <ul class="lista">
+                            <li>
+                                <strong>Innovador</strong>
+                            </li>
+                            <li>
+                                <strong>Visionario</strong>
+                            </li>
+                            <li>
+                                <strong>Eficiente</strong>
+                            </li>
+                            <li>
+                                <strong>Análitico</strong>
+                            </li>
+                            <li>
+                                <strong>Organizado</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Desarrollo Profesional -->
+                <div class="columna-2">
+                    <h3>Desarrollo Profesional</h3>
+                    <div class="contenedor-profesional">
+                        <div class="empresa">
+                            <img src="img/senati.png" alt="">
+                            <span style="font-weight: bold; font-size: 18px;">SENATI</span>
+                            <span>Instructor ETI</span>
+                        </div>
+                        <div class="empresa">
+                            <img src="img/laperla.png" alt="">
+                            <span style="font-weight: bold; font-size: 18px;">Molino La Perla S.A.C.</span>
+                            <span>Analista de Sistemas Senior</span>
+                        </div>
+                        <div class="empresa">
+                            <img src="img/serpro.png" alt="">
+                            <span style="font-weight: bold; font-size: 18px;">SERPRO</span>
+                            <span>Programador SalesForce</span>
+                        </div>
+                        <div class="empresa">
+                            <img src="img/empresa.png" alt="">
+                            <span style="font-weight: bold; font-size: 18px;">Xen Group System</span>
+                            <span>Analista de Sistemas</span>
+                        </div>
+                        <div class="empresa">
+                            <img src="img/cunamas.png" alt="">
+                            <span style="font-weight: bold; font-size: 18px;">Programa Nacional Cuna Más</span>
+                            <span>Analista Programador de Sistemas</span>
+                        </div>
+                        <div class="empresa">
+                            <img src="img/cedepas.png" alt="">
+                            <span style="font-weight: bold; font-size: 18px;">CEDEPAS Norte</span>
+                            <span>Jefe de Sistemas y de Soporte Informático</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades Técnicas</h2>
+            <div class="fila">
+                <div class="columna">
+                    <!-- <h3>Habilidades Técnicas</h3> -->
+                    <div class="skill">
+                        <span>Power BI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Tableau</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Visual Basic</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna">
+                    <!-- <br>
+                    <br>
+                    <br> -->
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Kotlin</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Maria DB</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section class="nosotros" id="nosotros">
+        <div class="contenido-seccion">
+            <h2>Sobre nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum modi sapiente rem voluptatem atque doloribus magni molestiae fugit quia aperiam, adipisci velit voluptates officiis fuga, nam in architecto blanditiis.</p>
+            <div class="fila">
+                <div class="columna">
+                    <h3>Misión</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, sit id laboriosam architecto minima cum voluptatum exercitationem deserunt iusto quaerat sequi incidunt expedita animi at adipisci delectus accusamus ab eius?</p>
+                </div>
+                <div class="columna">
+                    <h3>Visión</h3>                    
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti necessitatibus consequatur itaque omnis. Numquam tenetur ut sint, itaque rerum molestiae similique reiciendis dolor hic quas, blanditiis animi, officiis optio unde.</p>
+                </div>
+            </div>
+            <br>
+            <div class="fila">
+                <div class="columna-cursos">
+                    <h3>Dictado de Cursos</h3>
+                    <div class="contenedor-cursos">
+                        <div class="curso">
+                            <img src="img/word.png">
+                            <span>Microsoft Word</span>
+                        </div>
+                        <div class="curso">
+                            <img src="img/ppt.png">
+                            <span>Microsoft PowerPoint</span>
+                        </div>
+                        <div class="curso">
+                            <img src="img/excel.png">
+                            <span>Microsoft Excel</span>
+                        </div>
+                        <div class="curso">
+                            <img src="img/outlook.png">
+                            <span>Outlook</span>
+                        </div>
+                        <div class="curso">
+                            <img src="img/powerbi.png">
+                            <span>Power BI</span>
+                        </div>
+                        <div class="curso">
+                            <img src="img/soft.png">
+                            <span>Desarrollo de Software</span>
+                        </div>
+                        <div class="curso">
+                            <img src="img/basedatos.png">
+                            <span>Bases de Datos</span>
+                        </div>
+                        <div class="curso">
+                            <img src="img/grafico.avif">
+                            <span>Diseño Gráfico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION SISTEMA ERP -->
+    <section id="sistemaerp" class="sistemaerp">
+        <h2>Nuestro Sistema ERP</h2>
+        <div class="contenedor-slider">
+            <div class="slider" id="slider">
+                <div class="slider__section">
+                    <h2>Módulo Ventas</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error rerum dolore porro ut vel accusantium repudiandae voluptatum, molestias veritatis, fugiat laborum obcaecati adipisci maxime quas nostrum cum a suscipit eos?</p>
+                    <img src="img/gestionventas.jpg" alt="" class="slider__img">
+                </div>
+                <div class="slider__section">
+                    <h2>Módulo Finanzas</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error rerum dolore porro ut vel accusantium repudiandae voluptatum, molestias veritatis, fugiat laborum obcaecati adipisci maxime quas nostrum cum a suscipit eos?</p>
+                    <img src="img/finanzas.jpg" alt="" class="slider__img">
+                </div>
+                <div class="slider__section">
+                    <h2>Módulo Logística</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error rerum dolore porro ut vel accusantium repudiandae voluptatum, molestias veritatis, fugiat laborum obcaecati adipisci maxime quas nostrum cum a suscipit eos?</p>
+                    <img src="img/logistica.avif" alt="" class="slider__img">
+                </div>
+                <div class="slider__section">
+                    <h2>Módulo Almacén</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error rerum dolore porro ut vel accusantium repudiandae voluptatum, molestias veritatis, fugiat laborum obcaecati adipisci maxime quas nostrum cum a suscipit eos?</p>
+                    <img src="img/almacen.webp" alt="" class="slider__img">
+                </div>
+                <div class="slider__section">
+                    <h2>Módulo RRHH</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error rerum dolore porro ut vel accusantium repudiandae voluptatum, molestias veritatis, fugiat laborum obcaecati adipisci maxime quas nostrum cum a suscipit eos?</p>
+                    <img src="img/rrhh.jpg" alt="" class="slider__img">
+                </div>
+                <div class="slider__section">
+                    <h2>Módulo Auditoría</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error rerum dolore porro ut vel accusantium repudiandae voluptatum, molestias veritatis, fugiat laborum obcaecati adipisci maxime quas nostrum cum a suscipit eos?</p>
+                    <img src="img/auditoria.jpg" alt="" class="slider__img">
+                </div>
+                <!-- <div class="slider__section">
+                    <h2>Módulo Orden Despacho</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error rerum dolore porro ut vel accusantium repudiandae voluptatum, molestias veritatis, fugiat laborum obcaecati adipisci maxime quas nostrum cum a suscipit eos?</p>
+                    <img src="img/slider7.jpg" alt="" class="slider__img">
+                </div> -->
+                <div class="slider__section">
+                    <h2>Módulo Configuración</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error rerum dolore porro ut vel accusantium repudiandae voluptatum, molestias veritatis, fugiat laborum obcaecati adipisci maxime quas nostrum cum a suscipit eos?</p>
+                    <img src="img/configuracion.jpg" alt="" class="slider__img">
+                </div>
+            </div>
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2>Contáctanos</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="columna">
+                    <form id="form" action="">
+                        <input type="text" name="nombre" placeholder="Tu nombre">
+                        <input type="number" name="telefono" placeholder="Tu número telefónico">
+                        <input type="email" name="email" placeholder="Tu E-mail">
+                        <input type="text" name="interes" placeholder="Interés">
+                        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit">
+                            Enviar mensaje <i class="fa-solid fa-envelope"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                    <a href="mailto:raclunt@hotmail.com" id="mail">mail</a>
+                </div>
+                <!-- Mapa -->
+                <div class="columna">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Trujillo - La Libertad
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-whatsapp"></i>
+                                WhatsApp: +51 987654321
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: correo@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="Scripts/efectos.js"></script>
+    <script src="Scripts/slider.js"></script>
+    <script src="Scripts/formularios.js"></script>
+</body>
+</html>
